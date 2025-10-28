@@ -1,0 +1,90 @@
+﻿/* Global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff; 
+    color: #000000; 
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.index, .education, .projects, .ref {
+    background-color: #ffffff; 
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px auto;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.index{
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 15px; 
+    margin-top: 20px;
+}
+
+.education a, .projects a, .ref a{
+    display: flex;
+    font-size: 13px;
+    color: orangered;
+    justify-content: right;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav a {
+    color: #0e195b;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 13px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #101a2e;
+    border-bottom: 2px solid #101a2e;
+    padding-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: #163a5f; 
+    padding-bottom: 10px;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #101a2e;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+/* List */
+ul, ol {
+    margin-left: 40px;
+    line-height: 1.8;
+}
+
+li {
+    color: #000000;
+}
