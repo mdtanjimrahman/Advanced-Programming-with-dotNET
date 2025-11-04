@@ -9,18 +9,11 @@
     <h1>Education</h1>
 
     <ul>
-        <li>
-            <strong>Bsc. CSE - AIUB</strong> <br />
-            2022 - 2026 <br />
-        </li>
-        <li>
-            <strong>HSC - UHSC</strong> <br />
-            2018 - 2020 <br />
-        </li>
-        <li>
-            <strong>SSC - CAHS</strong> <br />
-            2016 - 2018 <br />
-        </li>
+            @foreach(var item in Model)
+            {
+                <li><strong>@item.Degree</strong></li>
+                <li>@item.Year</li>
+            }
     </ul>
     <a href="/Portfolio/Index">Back</a>
 </div>

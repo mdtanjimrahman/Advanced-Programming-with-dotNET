@@ -1,4 +1,5 @@
-﻿using System;
+﻿using first_project.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,14 +16,39 @@ namespace first_project.Controllers
         }
         public ActionResult Education()
         {
-            return View();
+            List<Education> edu = new List<Education>();
+            var time = 2020;
+            for (int i = 1; i <= 4; i++)
+            {
+                edu.Add(new Education()
+                {
+                    Degree = "Degree" + i,
+                    Year = time,
+                });
+                time = time + 2;
+            }
+            return View(edu);
         }
         public ActionResult Projects()
         {
-            return View();
+            List<Project> projects = new List<Project>();
+            for (int i = 1; i<=10; i++)
+            {
+                projects.Add(new Project()
+                {
+                    Name = "Project"+i,
+                    Language = "lang"+i,
+                    Duration = i,
+                });
+            }
+            return View(projects);
         }
         public ActionResult Reference()
         {
+            Reference r = new Reference()
+            {
+               
+            };
             return View();
         }
     }
