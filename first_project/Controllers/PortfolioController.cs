@@ -45,11 +45,12 @@ namespace first_project.Controllers
         }
         public ActionResult Reference()
         {
-            Reference r = new Reference()
+            var reference = new Reference
             {
-               
+                Name = new string[] {"Xiu Lang", "Mahmud"},
+                Status = new string[] {"Associate Prof., UH", "Senior Head, UH"}
             };
-            return View();
+            return View(reference);
         }
     }
 }
