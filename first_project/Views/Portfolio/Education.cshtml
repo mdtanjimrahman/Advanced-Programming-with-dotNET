@@ -1,0 +1,19 @@
+
+@{
+    ViewBag.Title = "Education";
+}
+
+<link rel="stylesheet" href="/Content/Style.css" />
+
+<div class="education">
+    <h1>Education</h1>
+
+    <ul>
+            @foreach(var item in Model)
+            {
+                <li><strong>@item.Degree</strong></li>
+                <li>@item.Year</li>
+            }
+    </ul>
+    <a href="/Portfolio/Index">Back</a>
+</div>
