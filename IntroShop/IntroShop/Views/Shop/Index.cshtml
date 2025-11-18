@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if (TempData["Msg"] != null)
+{
+    <p class="alert alert-info">@TempData["Msg"]</p>
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Operations</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td>@item.Qty</td>
+            <td>
+                <a href="/Shop/Details/@item.Id">Details</a>
+                <a href="/Shop/Update/@item.Id">Update</a>
+                <a href="/Shop/Delete/@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<a href="/Shop/Create">Create New Product</a>

@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@if (TempData["Msg"] != null)
+{
+    <p class="alert alert-info">@TempData["Msg"]</p>
+}
+
+<form action="" method="post">
+    <input type="text" name="Name" placeholder="Product Name" class="form-control" />
+    <input type="text" name="Price" placeholder="Price" class="form-control" />
+    <input type="text" name="Qty" placeholder="Quantity" class="form-control" />
+    <br />
+    <label>Category</label>
+    <select name="CId" class="form-control">
+        <option value="">Select Category</option>
+        @foreach (var item in Model)
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
+    <br />
+    <input type="submit" value="Submit" class="btn btn-primary" />
+</form>
