@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HungerDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contact" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FoodStates">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="PreserveTime" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ResId" Type="int" Nullable="false" />
+    <Property Name="EmpId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Restuarants">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Contact" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_FoodStates_Employees">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="1" />
+    <End Role="FoodStates" Type="Self.FoodStates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FoodStates">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FoodStates_Restuarants">
+    <End Role="Restuarants" Type="Self.Restuarants" Multiplicity="1" />
+    <End Role="FoodStates" Type="Self.FoodStates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Restuarants">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FoodStates">
+        <PropertyRef Name="ResId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HungerDBModelStoreContainer">
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FoodStates" EntityType="Self.FoodStates" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Restuarants" EntityType="Self.Restuarants" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_FoodStates_Employees" Association="Self.FK_FoodStates_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="FoodStates" EntitySet="FoodStates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FoodStates_Restuarants" Association="Self.FK_FoodStates_Restuarants">
+      <End Role="Restuarants" EntitySet="Restuarants" />
+      <End Role="FoodStates" EntitySet="FoodStates" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

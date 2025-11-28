@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form action="" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" class="form-control" /> <br />
+    <label>Name</label>
+    <input type="text" name="Name" value="@Model.Name" placeholder="Student Name" class="form-control" /> <br />
+    <label>Contact</label>
+    <input type="text" name="Contact" value="@Model.Contact" placeholder="Contact Number" class="form-control" />
+    <br />
+    <p><strong>Current Department: </strong>@Model.Department.Name</p>
+    <label>Change Department</label>
+    <select name="DeptId" class="form-control">
+        <option value="">Select Category</option>
+        @foreach (var item in ViewBag.Departments)
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
+    <br />
+    <input type="submit" value="Update" class="btn btn-primary" />
+</form>
+<br />
+
+<a href="/Bright/Index">Back</a>
+

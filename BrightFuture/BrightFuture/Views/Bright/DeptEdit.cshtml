@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "DeptEdit";
+}
+
+<h2>Edit Department</h2>
+
+<form action="" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" class="form-control" /> <br />
+    <label>Name</label>
+    <input type="text" name="Name" value="@Model.Name" class="form-control" />
+    <br />
+    <input type="submit" value="Update" class="btn btn-primary" />
+</form>
+<br />
+<a href="/Bright/DeptIndex">Back</a>
+

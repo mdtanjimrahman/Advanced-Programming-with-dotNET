@@ -12,7 +12,6 @@ namespace CustomFormValidate.ValidateAnnotation
         {
             protected override ValidationResult IsValid(object value, ValidationContext validationContext)
             {
-
                 var obj = validationContext.ObjectInstance as RegexValidation;  // UNBOXING
                 if (obj == null)
                     return ValidationResult.Success;

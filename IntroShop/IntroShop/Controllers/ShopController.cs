@@ -45,9 +45,21 @@ namespace IntroShop.Controllers
             return View(data);
         }
 
-        public ActionResult Update()
+        [HttpGet]
+        public ActionResult Update(int id)
         {
-            return View();
+            var data = db.Products.Find(id);
+            return View(data);
+        }
+
+        [HttpPost]
+        public ActionResult Update(Product p)
+        {
+            var pObj = db.Products.Find(p.Id);
+            db.Entry(pObj).CurrentValues.SetValues(pObj);
+            db.SaveChanges();
+            TempData["Msg"] = "Data Updated";
+            return RedirectToAction("Update");
         }
 
         public ActionResult Delete()

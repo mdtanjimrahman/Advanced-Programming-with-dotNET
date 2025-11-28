@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|solutionrelative:introef\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\introef\\introef\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\IntroEF\\introef\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|solutionrelative:introef\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\introef\\introef\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\IntroEF\\introef\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|solutionrelative:introef\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\introef\\introef\\ef\\umsmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\IntroEF\\introef\\ef\\umsmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{DB7D524A-CA7A-465B-B5D9-4157F6620438}|IntroEF\\IntroEF.csproj|solutionrelative:introef\\ef\\umsmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -51,8 +55,7 @@
               "RelativeToolTip": "IntroEF\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T06:18:32.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T06:18:32.337Z"
             },
             {
               "$type": "Document",
@@ -63,8 +66,7 @@
               "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\IntroEF\\IntroEF\\EF\\UMSModel.edmx [Diagram1]",
               "RelativeToolTip": "IntroEF\\EF\\UMSModel.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-11-18T06:16:11.413Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-11-18T06:16:11.413Z"
             },
             {
               "$type": "Document",
@@ -76,12 +78,7 @@
               "RelativeToolTip": "IntroEF\\EF\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T06:17:55.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-11-18T06:17:55.85Z"
             }
           ]
         }
