@@ -3,31 +3,35 @@
   "WorkspaceRootPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\brightfuture\\controllers\\brightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\controllers\\brightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\brightfuture\\brightfuture\\views\\bright\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\views\\bright\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\brightfuture\\views\\bright\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\views\\bright\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\brightfuture\\brightfuture\\views\\bright\\deptcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\views\\bright\\deptcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\brightfuture\\brightfuture\\views\\bright\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\views\\bright\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\brightfuture\\brightfuture\\controllers\\brightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\controllers\\brightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\brightfuture\\brightfuture\\views\\bright\\deptindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\brightfuture\\views\\bright\\deptindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\views\\bright\\deptindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\brightfuture\\brightfuture\\views\\bright\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\brightfuture\\views\\bright\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\views\\bright\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\brightfuture\\brightfuture\\views\\bright\\deptedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\brightfuture\\views\\bright\\deptedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\views\\bright\\deptedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\brightfuture\\brightfuture\\ef\\universitymodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\brightfuture\\ef\\universitymodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{E19083D2-D12F-48A6-AD96-7543DD27D3E8}|BrightFuture\\BrightFuture.csproj|solutionrelative:brightfuture\\ef\\universitymodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -38,15 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 311,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UNIVERSITYModel.edmx [Diagram1]",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\EF\\UNIVERSITYModel.edmx",
               "RelativeDocumentMoniker": "BrightFuture\\EF\\UNIVERSITYModel.edmx",
@@ -54,18 +54,17 @@
               "RelativeToolTip": "BrightFuture\\EF\\UNIVERSITYModel.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2025-11-28T09:57:30.264Z",
-              "IsPinned": true,
-              "EditorCaption": " [Diagram1]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BrightController.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Controllers\\BrightController.cs",
               "RelativeDocumentMoniker": "BrightFuture\\Controllers\\BrightController.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Controllers\\BrightController.cs",
-              "RelativeToolTip": "BrightFuture\\Controllers\\BrightController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFYAAAAhAAAAAAAAAA==",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Controllers\\BrightController.cs*",
+              "RelativeToolTip": "BrightFuture\\Controllers\\BrightController.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T09:54:59.249Z",
               "IsPinned": true,
@@ -74,6 +73,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Views\\Bright\\Index.cshtml",
+              "RelativeDocumentMoniker": "BrightFuture\\Views\\Bright\\Index.cshtml",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Views\\Bright\\Index.cshtml",
+              "RelativeToolTip": "BrightFuture\\Views\\Bright\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T15:09:46.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Views\\Bright\\Create.cshtml",
               "RelativeDocumentMoniker": "BrightFuture\\Views\\Bright\\Create.cshtml",
@@ -86,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DeptCreate.cshtml",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Views\\Bright\\DeptCreate.cshtml",
               "RelativeDocumentMoniker": "BrightFuture\\Views\\Bright\\DeptCreate.cshtml",
@@ -99,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DeptIndex.cshtml",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Views\\Bright\\DeptIndex.cshtml",
               "RelativeDocumentMoniker": "BrightFuture\\Views\\Bright\\DeptIndex.cshtml",
@@ -107,12 +123,11 @@
               "RelativeToolTip": "BrightFuture\\Views\\Bright\\DeptIndex.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-28T11:59:06.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T11:59:06.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DeptEdit.cshtml",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Views\\Bright\\DeptEdit.cshtml",
               "RelativeDocumentMoniker": "BrightFuture\\Views\\Bright\\DeptEdit.cshtml",
@@ -120,12 +135,11 @@
               "RelativeToolTip": "BrightFuture\\Views\\Bright\\DeptEdit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-28T12:07:37.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T12:07:37.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\BrightFuture\\BrightFuture\\Views\\Bright\\Edit.cshtml",
               "RelativeDocumentMoniker": "BrightFuture\\Views\\Bright\\Edit.cshtml",
@@ -133,8 +147,7 @@
               "RelativeToolTip": "BrightFuture\\Views\\Bright\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-28T10:16:35.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T10:16:35.53Z"
             }
           ]
         }

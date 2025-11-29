@@ -5,30 +5,37 @@
 
 <h2>Dashboard</h2>
 
-<table class="table table-bordered">
-    <tr>
-        <th>ID</th>
-        <th>Student Name</th>
-        <th>Contact</th>
-        <th>Department</th>
-        <th>Operations</th>
-    </tr>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.Id</td>
-            <td>@item.Name</td>
-            <td>@item.Contact</td>
-            <td>@item.Department.Name</td>
-            <td>
-                <a href="/Bright/Details/@item.Id">Details</a>
-                <a href="/Bright/Edit/@item.Id">Update</a>
-                <a href="/Bright/Delete/@item.Id">Delete</a>
-            </td>
-        </tr>
-    }
-</table>
+<div class="row">
+    <form>
+        <input type="text" name="search" class="col-md-3 form-control" placeholder="Search by Name" />
+        <input type="submit" value="Search" class="col-md-1 btn btn-primary" />
+    </form>
+</div>
 
-<a href="/Bright/Create">Register</a>
-<br />
-<a href="/Bright/DeptIndex">Department Info</a>
+    <table class="table table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>Student Name</th>
+            <th>Contact</th>
+            <th>Department</th>
+            <th>Operations</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Contact</td>
+                <td>@item.Department.Name</td>
+                <td>
+                    <a href="/Bright/Details/@item.Id">Details</a>
+                    <a href="/Bright/Edit/@item.Id">Update</a>
+                    <a href="/Bright/Delete/@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+    <a href="/Bright/Create">Register</a>
+    <br />
+    <a href="/Bright/DeptIndex">Department Info</a>

@@ -11,8 +11,15 @@ namespace BrightFuture.Controllers
     {
         UniversityDBEntities db = new UniversityDBEntities();
         // GET: Bright
-        public ActionResult Index()
+        public ActionResult Index(string search)
         {
+            if (search != null)
+            {
+                var filter = (from sdata in db.Students
+                              where sdata.Name.Contains(search)
+                              select sdata).ToList();
+                return View(filter);
+            }
             var s = db.Students.ToList();
             return View(s);
         }
