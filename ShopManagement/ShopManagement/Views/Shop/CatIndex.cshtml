@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "CatIndex";
+}
+
+<h2>Product Categories</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Departments</th>
+        <th>Operations</th>
+    </tr>
+
+    @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>
+                        <a href="/Shop/CatUpdate/@item.Id">Update</a>
+                        <a href="/Shop/CatDelete/@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+</table>
+<br/>
+<a href="/Shop/CatCreate">Add Category</a>
+<br/>
+<a href="/Shop/Index">Back</a>

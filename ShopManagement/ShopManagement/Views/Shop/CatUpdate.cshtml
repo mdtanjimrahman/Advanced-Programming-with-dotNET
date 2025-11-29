@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "CatUpdate";
+}
+
+<h2>Rename your Category</h2>
+
+<form action="" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <label>Department</label>
+    <input type="text" name="Name" value="@Model.Name" placeholder="Name your department" class="form-control" />
+    <br />
+
+    <input type="submit" value="Update" class="btn btn-primary" />
+</form>
+<br />
+<a href="/Shop/CatIndex">Back</a>

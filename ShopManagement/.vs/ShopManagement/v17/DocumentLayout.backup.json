@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\shopmanagement\\shopmanagement\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|solutionrelative:shopmanagement\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\shopmanagement\\shopmanagement\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|solutionrelative:shopmanagement\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\shopmanagement\\shopmanagement\\views\\shop\\catindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|solutionrelative:shopmanagement\\views\\shop\\catindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\shopmanagement\\shopmanagement\\views\\shop\\catupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|solutionrelative:shopmanagement\\views\\shop\\catupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\shopmanagement\\shopmanagement\\views\\shop\\catcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|solutionrelative:shopmanagement\\views\\shop\\catcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\shopmanagement\\shopmanagement\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|solutionrelative:shopmanagement\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\shopmanagement\\shopmanagement\\views\\shop\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|solutionrelative:shopmanagement\\views\\shop\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\shopmanagement\\shopmanagement\\views\\shop\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|solutionrelative:shopmanagement\\views\\shop\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\shopmanagement\\shopmanagement\\ef\\shopmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{16836660-FFC4-4333-BF03-3E2E3FDA4857}|ShopManagement\\ShopManagement.csproj|solutionrelative:shopmanagement\\ef\\shopmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 311,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SHOPModel.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\EF\\SHOPModel.edmx",
+              "RelativeDocumentMoniker": "ShopManagement\\EF\\SHOPModel.edmx",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\EF\\SHOPModel.edmx [Diagram1]",
+              "RelativeToolTip": "ShopManagement\\EF\\SHOPModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-11-29T15:48:24.684Z",
+              "IsPinned": true,
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "ShopManagement\\Controllers\\ShopController.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Controllers\\ShopController.cs*",
+              "RelativeToolTip": "ShopManagement\\Controllers\\ShopController.cs*",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv00AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T15:47:08.202Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ShopManagement\\Views\\Shop\\Edit.cshtml",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\Edit.cshtml",
+              "RelativeToolTip": "ShopManagement\\Views\\Shop\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T16:26:55.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatIndex.cshtml",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\CatIndex.cshtml",
+              "RelativeDocumentMoniker": "ShopManagement\\Views\\Shop\\CatIndex.cshtml",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\CatIndex.cshtml",
+              "RelativeToolTip": "ShopManagement\\Views\\Shop\\CatIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T17:01:07.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\Create.cshtml",
+              "RelativeDocumentMoniker": "ShopManagement\\Views\\Shop\\Create.cshtml",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\Create.cshtml",
+              "RelativeToolTip": "ShopManagement\\Views\\Shop\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T16:06:42.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "ShopManagement\\Views\\Shop\\Details.cshtml",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "ShopManagement\\Views\\Shop\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T16:12:18.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatUpdate.cshtml",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\CatUpdate.cshtml",
+              "RelativeDocumentMoniker": "ShopManagement\\Views\\Shop\\CatUpdate.cshtml",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\CatUpdate.cshtml",
+              "RelativeToolTip": "ShopManagement\\Views\\Shop\\CatUpdate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T17:26:45.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatCreate.cshtml",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\CatCreate.cshtml",
+              "RelativeDocumentMoniker": "ShopManagement\\Views\\Shop\\CatCreate.cshtml",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\CatCreate.cshtml",
+              "RelativeToolTip": "ShopManagement\\Views\\Shop\\CatCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T17:21:35.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopManagement\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\ShopManagement\\ShopManagement\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "ShopManagement\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T15:47:13.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

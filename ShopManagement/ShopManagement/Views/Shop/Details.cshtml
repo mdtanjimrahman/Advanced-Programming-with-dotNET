@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Product Details</h2>
+
+<br />
+
+<p><strong>Product Id: </strong>@Model.Id</p>
+<p><strong>Product Name: </strong>@Model.Name</p>
+<p><strong>Price: </strong>@Model.Price</p>
+<p><strong>Quantity: </strong>@Model.Qty</p>
+<p><strong>Product Category: </strong>@Model.Category.Name</p>
+
+<a href="/Shop/Index">Back</a>

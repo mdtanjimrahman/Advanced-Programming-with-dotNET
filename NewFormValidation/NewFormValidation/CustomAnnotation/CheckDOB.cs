@@ -11,14 +11,15 @@ namespace NewFormValidation.Models
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            var objDOB = validationContext.ObjectInstance as Validation;
+            var objDOB = validationContext.ObjectInstance as Validation; //Unboxing
+
             //DOB
             if (objDOB.DOB == default(DateTime))
                 return new ValidationResult("You must provide a DOB");
 
             int age = DateTime.Today.Year - objDOB.DOB.Value.Year;
             if (age < 18)
-                return new ValidationResult("You must above 18 years old");
+                return new ValidationResult("You must be above 18 years old");
 
             if (objDOB.DOB.Value.Year > DateTime.Today.Year)
                 return new ValidationResult("Invalid Date of Birth");
