@@ -1,6 +1,8 @@
-﻿using IntroShop.EF;
+﻿using IntroShop.DTOs;
+using IntroShop.EF;
 using System;
 using System.Collections.Generic;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -10,6 +12,40 @@ namespace IntroShop.Controllers
     public class ShopController : Controller
     {
         ShopEntities db = new ShopEntities();
+
+        public static Product Convert(ProductDTO p)
+        {
+            return new Product()
+            {
+                Name = p.Name,
+                CId = p.CId,
+                Price = p.Price,
+                Qty = p.Qty
+            };
+
+        }
+
+        public static ProductDTO Convert(Product p)
+        {
+            return new ProductDTO()
+            {
+                Name = p.Name,
+                CId = p.CId,
+                Price = p.Price,
+                Qty = p.Qty
+            };
+
+        }
+
+        public static List<ProductDTO> Convert(List<Product> list)
+        {
+            var data = new List<ProductDTO>();
+            foreach (var item in list)
+            {
+                data.Add(Convert(item));
+            }
+            return data;
+        }
 
         // GET: Shop
         public ActionResult Index()
@@ -21,22 +57,23 @@ namespace IntroShop.Controllers
         [HttpGet]
         public ActionResult Create()
         {
-            var cat = db.Categories.ToList();
-            return View(cat);
+            ViewBag.Cats = db.Categories.ToList();
+            return View(new ProductDTO());
         }
 
         [HttpPost]
-        public ActionResult Create(Product p)
+        public ActionResult Create(ProductDTO p)
         {
             if (ModelState.IsValid) 
             {
-                db.Products.Add(p);
+                var pdata = Convert(p);
+                db.Products.Add(pdata);
                 db.SaveChanges();
                 TempData["Msg"] = "Product Added";
                 return RedirectToAction("Index");
             }
-            var cat = db.Categories.ToList();
-            return View(cat);
+            ViewBag.Cats = db.Categories.ToList();
+            return View(p);
         }
 
         public ActionResult Details(int id)
@@ -53,18 +90,22 @@ namespace IntroShop.Controllers
         }
 
         [HttpPost]
-        public ActionResult Update(Product p)
+        public ActionResult Update(ProductDTO p)
         {
             var pObj = db.Products.Find(p.Id);
-            db.Entry(pObj).CurrentValues.SetValues(pObj);
+            db.Entry(pObj).CurrentValues.SetValues(p);
             db.SaveChanges();
             TempData["Msg"] = "Data Updated";
             return RedirectToAction("Update");
         }
 
-        public ActionResult Delete()
+        public ActionResult Delete(int Id)
         {
-            return View();
+            var pObj = db.Products.Find(Id);
+            db.Products.Remove(pObj);
+            db.SaveChanges();
+            TempData["DelMsg"] = pObj.Name+" Deleted";
+            return RedirectToAction("Index");
         }
     }
 }

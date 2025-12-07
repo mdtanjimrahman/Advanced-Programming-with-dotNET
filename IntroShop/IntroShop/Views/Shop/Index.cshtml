@@ -10,6 +10,11 @@
     <p class="alert alert-info">@TempData["Msg"]</p>
 }
 
+@if (TempData["DelMsg"] != null)
+{
+    <p class="alert alert-info">@TempData["DelMsg"]</p>
+}
+
 <table class="table table-bordered">
     <tr>
         <th>ID</th>

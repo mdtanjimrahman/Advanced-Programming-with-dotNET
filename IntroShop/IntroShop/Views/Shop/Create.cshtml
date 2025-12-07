@@ -18,7 +18,7 @@
     <label>Category</label>
     <select name="CId" class="form-control">
         <option value="">Select Category</option>
-        @foreach (var item in Model)
+        @foreach (var item in ViewBag.Cats)
         {
             <option value="@item.Id">@item.Name</option>
         }
