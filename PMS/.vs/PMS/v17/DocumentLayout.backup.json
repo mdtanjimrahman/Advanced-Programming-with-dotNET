@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\pms\\pms\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|solutionrelative:pms\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\pms\\pms\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|solutionrelative:pms\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\pms\\pms\\views\\registration\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|solutionrelative:pms\\views\\registration\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\pms\\pms\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|solutionrelative:pms\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\pms\\pms\\customvalidation\\emailvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|solutionrelative:pms\\customvalidation\\confirmpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\pms\\pms\\views\\registration\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|solutionrelative:pms\\views\\registration\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\pms\\pms\\views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E6BA771E-8D14-40A1-950A-CB56654049CF}|PMS\\PMS.csproj|solutionrelative:pms\\views\\registration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 311,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RegistrationController.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\PMS\\Controllers\\RegistrationController.cs",
               "RelativeDocumentMoniker": "PMS\\Controllers\\RegistrationController.cs",
               "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\PMS\\Controllers\\RegistrationController.cs",
               "RelativeToolTip": "PMS\\Controllers\\RegistrationController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAYwGAAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T15:33:01.47Z",
               "IsPinned": true,
@@ -56,21 +56,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CustomerDTO.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\PMS\\DTOs\\CustomerDTO.cs",
               "RelativeDocumentMoniker": "PMS\\DTOs\\CustomerDTO.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\PMS\\DTOs\\CustomerDTO.cs*",
-              "RelativeToolTip": "PMS\\DTOs\\CustomerDTO.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\PMS\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "PMS\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T16:00:50.976Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmailValidation.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\PMS\\CustomValidation\\EmailValidation.cs",
               "RelativeDocumentMoniker": "PMS\\CustomValidation\\EmailValidation.cs",
@@ -82,12 +86,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ConfirmPass.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\PMS\\CustomValidation\\ConfirmPass.cs",
               "RelativeDocumentMoniker": "PMS\\CustomValidation\\ConfirmPass.cs",
@@ -100,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserValidation.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\PMS\\CustomValidation\\UserValidation.cs",
               "RelativeDocumentMoniker": "PMS\\CustomValidation\\UserValidation.cs",
@@ -113,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DashBoard.cshtml",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\PMS\\PMS\\Views\\Registration\\DashBoard.cshtml",
               "RelativeDocumentMoniker": "PMS\\Views\\Registration\\DashBoard.cshtml",
