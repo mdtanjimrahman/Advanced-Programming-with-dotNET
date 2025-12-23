@@ -1,5 +1,88 @@
 [
   {
+    "ContainingType": "IntroCFAPI.Controllers.CategoryController",
+    "Method": "GetMapper",
+    "RelativePath": "api/Category",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "AutoMapper.Mapper",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IntroCFAPI.Controllers.CategoryController",
+    "Method": "Add",
+    "RelativePath": "api/Category/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "c",
+        "Type": "IntroCFAPI.DTOs.CategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IntroCFAPI.Controllers.CategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Category/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IntroCFAPI.Controllers.CategoryController",
+    "Method": "OneCategory",
+    "RelativePath": "api/Category/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IntroCFAPI.Controllers.CategoryController",
+    "Method": "Update",
+    "RelativePath": "api/Category/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "c",
+        "Type": "IntroCFAPI.DTOs.CategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "IntroCFAPI.Controllers.ProductController",
     "Method": "GetMapper",
     "RelativePath": "api/Product",
@@ -47,19 +130,30 @@
   },
   {
     "ContainingType": "IntroCFAPI.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IntroCFAPI.Controllers.ProductController",
     "Method": "OneProduct",
-    "RelativePath": "api/Product/product{id}",
+    "RelativePath": "api/Product/get/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "p",
-        "Type": "IntroCFAPI.DTOs.ProductDTO",
-        "IsRequired": true
-      },
-      {
-        "Name": "Id",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -69,19 +163,19 @@
   {
     "ContainingType": "IntroCFAPI.Controllers.ProductController",
     "Method": "Update",
-    "RelativePath": "api/Product/update{id}",
-    "HttpMethod": "POST",
+    "RelativePath": "api/Product/update/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "p",
-        "Type": "IntroCFAPI.DTOs.ProductDTO",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       },
       {
-        "Name": "Id",
-        "Type": "System.Int32",
+        "Name": "p",
+        "Type": "IntroCFAPI.DTOs.ProductDTO",
         "IsRequired": true
       }
     ],

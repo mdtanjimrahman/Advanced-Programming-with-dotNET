@@ -9,10 +9,10 @@ namespace IntroCFAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class CategoryController : ControllerBase
     {
         PMSContext db;
-        public ProductController(PMSContext db)
+        public CategoryController(PMSContext db)
         {
             this.db = db;
         }
@@ -21,7 +21,7 @@ namespace IntroCFAPI.Controllers
         {
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<ProductDTO, Product>().ReverseMap();
+                cfg.CreateMap<CategoryDTO, Category>().ReverseMap();
             });
             return new Mapper(config);
         }
@@ -29,29 +29,28 @@ namespace IntroCFAPI.Controllers
         [HttpGet("all")]
         public IActionResult GetAll()
         {
-            var data = GetMapper().Map<List<ProductDTO>>(db.Products.ToList());
+            var data = GetMapper().Map<List<CategoryDTO>>(db.Categories.ToList());
             return Ok(data);
         }
 
         [HttpGet("get/{id}")]
-        public IActionResult OneProduct(int id)
+        public IActionResult OneCategory(int id)
         {
-            var data = db.Products.Find(id);
-            if (data == null)
-                return Ok("Not Found");
+            var cat = db.Categories.Find(id);
+            if (cat == null)
+                return NotFound();
 
-            var product = GetMapper().Map<ProductDTO>(data);
-            return Ok(product);
+            var data = GetMapper().Map<CategoryDTO>(cat);
+            return Ok(data);
         }
 
-
         [HttpPost("add")]
-        public IActionResult Add(ProductDTO p)
+        public IActionResult Add(CategoryDTO c)
         {
             if (ModelState.IsValid)
             {
-                var data = GetMapper().Map<Product>(p);
-                db.Products.Add(data);
+                var cat = GetMapper().Map<Category>(c);
+                db.Categories.Add(cat);
                 db.SaveChanges();
                 return Ok();
             }
@@ -59,18 +58,16 @@ namespace IntroCFAPI.Controllers
         }
 
         [HttpPut("update/{id}")]
-        public IActionResult Update(int id, ProductDTO p)
+        public IActionResult Update(int id, CategoryDTO c)
         {
-            var exist = db.Products.Find(id);
+            var exist = db.Categories.Find(id);
             if (exist == null)
                 return NotFound();
 
             if (ModelState.IsValid)
             {
                 // Manual map 
-                exist.Name = p.Name;
-                exist.Price = p.Price;
-                exist.Cid= p.Cid; 
+                exist.Name = c.Name;
 
                 db.SaveChanges();
                 return Ok("Product updated");
@@ -78,19 +75,5 @@ namespace IntroCFAPI.Controllers
 
             return BadRequest(ModelState);
         }
-
-        [HttpDelete("delete/{id}")]
-        public IActionResult Delete(int id)
-        {
-            var data = db.Products.Find(id);
-            if (data == null)
-                return NotFound();
-
-            db.Products.Remove(data);
-            db.SaveChanges();
-            return Ok("Product deleted");
-        }
-
-
     }
 }

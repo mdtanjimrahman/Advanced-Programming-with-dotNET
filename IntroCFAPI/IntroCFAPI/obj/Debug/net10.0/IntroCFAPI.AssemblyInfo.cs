@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntroCFAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+781c9060536f7c3f1fb76ab73532f467d048df20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28a5cca1d1906f0a07b52abefe123436be04fd0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntroCFAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntroCFAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
