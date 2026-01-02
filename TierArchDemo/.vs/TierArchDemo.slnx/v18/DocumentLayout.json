@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\TierArchDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24031868-2446-42B0-8346-C3A54317B86E}|AppTierDemo\\AppTierDemo.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\tierarchdemo\\apptierdemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24031868-2446-42B0-8346-C3A54317B86E}|AppTierDemo\\AppTierDemo.csproj|solutionrelative:apptierdemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027AA777-EAB9-41F9-B370-26E58C030681}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\tierarchdemo\\bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027AA777-EAB9-41F9-B370-26E58C030681}|BLL\\BLL.csproj|solutionrelative:bll\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48543A8D-0A79-474F-AF58-94C278B0602D}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\mid\\advanced-programming-with-dotnet\\tierarchdemo\\dal\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48543A8D-0A79-474F-AF58-94C278B0602D}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 311,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\TierArchDemo\\AppTierDemo\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "AppTierDemo\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\TierArchDemo\\AppTierDemo\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "AppTierDemo\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:43:33.694Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\TierArchDemo\\BLL\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\StudentService.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\TierArchDemo\\BLL\\Services\\StudentService.cs",
+              "RelativeToolTip": "BLL\\Services\\StudentService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwC4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:40:43.178Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\TierArchDemo\\DAL\\Repos\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\StudentRepo.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Mid\\Advanced-Programming-with-dotNET\\TierArchDemo\\DAL\\Repos\\StudentRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\StudentRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:41:19.946Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
