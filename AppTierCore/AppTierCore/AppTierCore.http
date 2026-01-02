@@ -1,0 +1,6 @@
+@AppTierCore_HostAddress = http://localhost:5151
+
+GET {{AppTierCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
