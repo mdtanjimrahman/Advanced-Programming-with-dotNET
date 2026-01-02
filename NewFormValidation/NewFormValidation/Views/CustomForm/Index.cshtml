@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@if (TempData["Msg"] != null)
+            {
+                <p class="alert alert-info">@TempData["Msg"]</p>
+            }
+
+<h2>Registration</h2>
+
+<form action="" method="post">
+    <input type="text" name="Id" value="@Model.Id" placeholder="xx-xxxxx-x" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("Id")</span>
+    <br />
+
+    <input type="text" name="Name" value="@Model.Name" placeholder="Name" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("Name")</span>
+    <br />
+
+    <input type="text" name="Email" value="@Model.Email" placeholder="xx-xxxxx-x@student.aiub.edu" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("Email")</span>
+    <br />
+
+    <input type="date" name="DOB" value="@Model.DOB?.ToString("yyyy-MM-dd")" class="form-control" />
+    <span class="text-danger">@Html.ValidationMessage("DOB")</span>
+    <br />
+
+    <input type="submit" name="Submit" class="btn btn-primary"/>
+</form>
+

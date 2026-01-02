@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create an order</h2>
+
+<form action="" method="post">
+    <label>Order Date</label>
+    <input type="date" name="Date" class="form-control" />
+    <br />
+
+    <label>Set Preserve Time</label>
+    <input type="text" name="PreserveTime" placeholder="Set your time in hours" class="form-control" />
+    <br />
+
+    <label>Status</label>
+    <select name="Status" class="form-control">
+        <option>Select order status</option>
+        <option value="Pending">Pending</option>
+    </select>
+    <br />
+
+    <label>Restuarants</label>
+    <select name="ResId" class="form-control">
+        <option>Select a restuarant</option>
+        @foreach (var item in Model)
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
+
+    <input type="submit" value="Place Order" class="btn btn-primary" />
+</form>
+
